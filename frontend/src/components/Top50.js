@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Header from "./Header";
-import Content from "./Content";
+import SongList from "./SongList";
 
 const Top50 = () => {
   const [allSongs, setAllSongs] = useState([]);
@@ -14,12 +14,10 @@ const Top50 = () => {
       });
   }, []);
 
-  console.log("Top50.js: allSongs: ", allSongs);
-
   return (
     <>
       <Header pageTitle="Top 50 Songs Streamed on Spotify" />
-      <Content>Need to render all of the songs here...</Content>
+      <SongList songs={allSongs}></SongList>
     </>
   );
 };

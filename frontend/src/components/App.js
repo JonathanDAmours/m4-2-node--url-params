@@ -16,16 +16,16 @@ const App = () => {
           <Route exact path="/">
             <HomePage />
           </Route>
-          <Route exact path="/music">
+          <Route exact path="/top50">
             <Top50 />
           </Route>
-          <Route exact path="/music/:songRank">
+          <Route exact path="/top50/song/:id">
             <SongPage />
           </Route>
-          <Route exact path="/music/artist/:artistName">
+          <Route exact path="/top50/artist/:artist">
             <ArtistPage />
           </Route>
-          <Route exact path="/most-popular-artist">
+          <Route exact path="/top50/popular-artist">
             <PopularArtistPage />
           </Route>
         </Switch>

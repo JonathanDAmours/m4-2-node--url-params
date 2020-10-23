@@ -28,6 +28,6 @@ If the rank provided doesn't exist in the data, return a `404`.
 
 _If you suddenly feel like you should create 50 different endpoints, **STOP**. That is NOT the solution._
 
-Test your endpoint in insomnia.
+<!-- Test your endpoint in insomnia. -->
 
 ![insomnia ex3](../__lecture/assets/insomnia_song.png)

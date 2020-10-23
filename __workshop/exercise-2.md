@@ -25,6 +25,6 @@ The server response should have this shape (as it is what the FE expects):
 
 You will need to create the endpoint in the `server.js` file.
 
-Test your endpoint with insomnia.
+<!-- Test your endpoint with insomnia. -->
 
 ![insomnia ex2](../__lecture/assets/insomnia_top50.png)

@@ -22,17 +22,17 @@ const HomePage = () => {
         <h2 style={{ marginTop: "24px" }}>Popular Links</h2>
         <Menu>
           <li>
-            <Link to="/music">All Songs</Link>
+            <Link to="/top50">All Songs</Link>
           </li>
           <li>
-            <Link to="/most-popular-artist">Songs by most popular artist</Link>
+            <Link to="/top50/popular-artist">Songs by most popular artist</Link>
           </li>
         </Menu>
         <h2>Artists on this list</h2>
         <Menu>
           {artists.map((artist) => (
             <li>
-              <Link to={`/music/artist/${artist}`}>{artist}</Link>
+              <Link to={`/top50/artist/${artist}`}>{artist}</Link>
             </li>
           ))}
         </Menu>
